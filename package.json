@@ -1,5 +1,5 @@
 {
-  "homepage": "http://johanbphilip.github.io/my-react-page",
+  "homepage": "https://johanbphilip.github.io/my-react-page",
   "name": "my-react-page",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
